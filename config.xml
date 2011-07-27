@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
 xmlns:gap = "http://heartlanddc.com/ns/1.0"
-id = "com.heartlanddc.hdc.event.app"
+id = "com.heartlanddc.hdceventapp"
 version = "1.0.0">
 
 <name>HDC Event App</name>
