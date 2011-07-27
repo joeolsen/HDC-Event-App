@@ -1,4 +1,31 @@
 <html>
-<head>Test</head>
-<body>This is a test.</body>
+<title>Heartland Developers Conference 2011</title>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<SCRIPT LANGUAGE="javascript">
+	<!--
+	function OnChange(dropdown)
+	{
+    	var myindex  = dropdown.selectedIndex;
+    	var SelValue = dropdown.options[myindex].value;
+    	var baseURL  = 'session.html?ID=' + SelValue;
+    	top.location.href = baseURL;
+    
+    	return true;
+	}
+//-->
+
+</SCRIPT>
+</head>
+<body>
+<form method="post">
+<img src="assets/images/hdcheader.png">
+<h1>Welcome!</h1> 
+Select a session:<select id="ddlSessionSelect" onchange='OnChange(this.form.ddlSessionSelect);'>
+							<option value="101">101</option>
+							<option value="102">102</option>
+							<option value="103">103</option>
+						</select>
+</form>
+</body>
 </html>
